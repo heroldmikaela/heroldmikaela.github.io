@@ -1,0 +1,105 @@
+body {
+  background-image: url("image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+nav{
+position: sticky;
+top: 0;
+}
+
+#home {
+  height: 600px;
+}
+
+#aboutme {
+  height:700px;
+}
+
+#project {
+  height:700px;
+
+}
+
+#contact {
+  height:700px;
+
+}
+
+#avatar{
+  margin-right: 100%;
+}
+
+
+
+/**/
+h1 {
+  	font-size: 4em;
+    margin-top: 5%;
+}
+
+h2 {
+  margin-top:5%;
+}
+
+.profile{
+  text-align: right;
+}
+
+/* NavBar styling*/
+ul.nav {
+  text-align: left;
+}
+
+li.nav {
+  display: inline;
+  text-align: left;
+
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  border-style: solid;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*table {
+  border-style: solid;
+  margin-left: 2em;
+  margin-right:2em;
+}
+
+td {
+  border-style:solid;
+}*/
+
+img  {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    color: red;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}

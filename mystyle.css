@@ -11,17 +11,48 @@ position: sticky;
 top: 0;
 }
 
+
 #home {
   height: 600px;
 }
 
-#aboutme {
+#about {
   height:700px;
-}
 
+
+}
+.aboutheading{
+  font-size: 250%;
+}
+#about p{
+width: 50%;
+margin-left: 25%;
+  float:center;
+  display: flex;
+
+}
 #project {
   height:700px;
 
+
+}
+
+.skillDiv{
+  margin-bottom: 20rem;
+}
+
+.skillsheading{
+  font-size: 250%;
+}
+
+.skillImage{
+  max-width: 10rem;
+  max-height: 10rem
+}
+
+li.skillslist{
+  font-size: 150%;
+  display: inline;
 }
 
 #contact {
@@ -30,10 +61,19 @@ top: 0;
 }
 
 #avatar{
-  margin-right: 100%;
+  /* margin-right: 100%; */
+  margin-left: 0.5%;
+  width: 25%
 }
 
-
+input{
+  width: 30%;
+  height: 5%;
+}
+textarea{
+  width: 30%;
+  height: 25 z%;
+}
 
 /**/
 h1 {
@@ -45,9 +85,7 @@ h2 {
   margin-top:5%;
 }
 
-.profile{
-  text-align: right;
-}
+
 
 /* NavBar styling*/
 ul.nav {
